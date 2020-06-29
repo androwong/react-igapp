@@ -1,0 +1,77 @@
+.center {
+    display: flex;
+    justify-content: center;
+    margin-left: 6px;
+}
+
+.sad-icon {
+    background: url(/assets/sad-smiley.svg) center center no-repeat;
+    background-size: contain;
+    height: 35px;
+    width: 35px;
+    margin-top: 15px;
+}
+
+.no-metrics {
+    margin-top: 14px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #9b9b9b;
+}
+
+.item {
+    background: white;
+    height: 191px;
+    width: 255px;
+    box-sizing: border-box;
+    user-select: none;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px #e3e6f4;
+    border-radius: 2px;
+    -moz-box-sizing: border-box;
+    margin: 15px;
+    padding: 0 12px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+.text {
+    font-weight: 600;
+    color: #636872;
+    font-size: 16px;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 12px 0;
+    align-items: center;
+    text-transform: capitalize;
+    height: 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.number {
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: 600;
+    color:  #354052;
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    flex-grow: 1;
+}
+
+.context {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    white-space: pre;
+    font-size: 16px;
+    font-weight: 500;
+}

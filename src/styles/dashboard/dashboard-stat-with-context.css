@@ -1,0 +1,30 @@
+.context-stat {
+    display: flex;
+    justify-content: center;
+    color: #00D305;
+}
+
+.context-stat[data-negative='negative'] {
+    color: red;
+}
+
+.arrow[data-arrow-type='decline'] {
+    transform: rotate(180deg);
+    border-color: transparent transparent red transparent;
+}
+
+.arrow {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6px 9px 6px;
+    align-self: center;
+    margin: 2px 2px 0 0;
+    border-color: transparent transparent #24b10e transparent;
+}
+
+.arrow[data-arrow-type='decline'] {
+    transform: rotate(180deg);
+    border-color: transparent transparent red transparent;
+}

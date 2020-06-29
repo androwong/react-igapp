@@ -1,0 +1,14 @@
+@import "../global/mixins.css";
+
+.text {
+    font-size: 12px !important;
+}
+
+.date-select {
+    composes: text;
+    width: 135px;
+    margin: 0 8px;
+    z-index: 2;
+}
+
+@mixin icon-nodpi icons:calendar, /assets/select-calendar;

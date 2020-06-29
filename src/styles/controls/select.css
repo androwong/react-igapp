@@ -1,0 +1,15 @@
+.text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
+.icon {
+    min-width: 20px;
+    min-height: 20px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}

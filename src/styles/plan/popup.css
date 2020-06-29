@@ -1,0 +1,67 @@
+@import "../global/mixins.css";
+
+.popup {
+  border: 1px solid #8f939a;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+.header {
+  border-bottom: 1px solid #dddee5;
+  position: relative;
+  margin: 0 15px;
+}
+
+.title {
+  color: #273142;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.050em;
+  padding-top: 15px;
+}
+
+.close {
+  position: absolute;
+  top: 11px;
+  right: 0;
+  width: 13px;
+  height: 13px;
+  background: url(/assets/plan_icons/close.svg) center center no-repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.content {}
+
+.text-content {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 0 15px;
+}
+
+.text-content :global(p) {
+  @mixin fira-font;
+  @mixin font-smooth-auto;
+
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.005em;
+  color: #646973;
+  line-height: 21px;
+  margin: 7px 0 10px;
+}
+
+.text-content :global(strong) {
+  color: #354052;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  display: block;
+}
+
+.hide {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  width: 55px;
+  height: 20px;
+}

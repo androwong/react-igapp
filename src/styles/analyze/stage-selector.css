@@ -1,0 +1,107 @@
+
+.outer-div {
+    display: inline-flex;
+    width: 100%;
+}
+
+.inner-div {
+    --height: 50px;
+    --arrow-border-width: calc(var(--height)/2);
+    --background-color: #ffffff;
+    --selected-color: #4d91fc;
+    height: var(--height);
+    color: #707ea7;
+    background-color: var(--background-color);
+    position: relative;
+    z-index: 1;
+    flex-grow: 1;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.inner-div[data-selected] {
+    background-color: var(--selected-color);
+    color: #ffffff;
+    cursor: initial;
+}
+
+.inner-div::after {
+    content: "";
+    width: 0;
+    height: 0;
+    right: 2px;
+    border-top: var(--arrow-border-width) solid transparent;
+    border-bottom: var(--arrow-border-width) solid transparent;
+    border-left: var(--arrow-border-width) solid var(--background-color);
+    position: absolute;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.inner-div[data-selected]::after {
+    content: "";
+    width: 0;
+    height: 0;
+    right: 2px;
+    border-top: var(--arrow-border-width) solid transparent;
+    border-bottom: var(--arrow-border-width) solid transparent;
+    border-left: var(--arrow-border-width) solid var(--selected-color);
+    position: absolute;
+    z-index: 3;
+    cursor: initial;
+}
+
+.inner-div::before {
+    content: "";
+    width: 0;
+    height: 0;
+    right: 0;
+    position: absolute;
+    border-top: var(--arrow-border-width) solid var(--background-color);
+    border-bottom: var(--arrow-border-width) solid var(--background-color);
+    border-left: var(--arrow-border-width) solid #e6e8f0;
+    z-index: 2;
+}
+
+.inner-div[data-selected]::before {
+    border-top: var(--arrow-border-width) solid var(--background-color);
+    border-bottom: var(--arrow-border-width) solid var(--background-color);
+    border-left: var(--arrow-border-width) solid var(--selected-color);
+}
+
+.inner-div[data-before-selected]::before {
+    border-top: var(--arrow-border-width) solid var(--selected-color);
+    border-bottom: var(--arrow-border-width) solid var(--selected-color);
+    border-left: var(--arrow-border-width) solid var(--selected-color);
+}
+
+.inner-div[data-last]::after {
+    border-top: var(--arrow-border-width) solid var(--background-color);
+    border-bottom: var(--arrow-border-width) solid var(--background-color);
+    border-left: var(--arrow-border-width) solid var(--background-color);
+}
+
+.inner-div[data-last][data-selected]::after {
+    border-top: var(--arrow-border-width) solid var(--selected-color);
+    border-bottom: var(--arrow-border-width) solid var(--selected-color);
+    border-left: var(--arrow-border-width) solid var(--selected-color);
+}
+
+.inner-div[data-last]::before {
+    border-top: var(--arrow-border-width) solid transparent;
+    border-bottom: var(--arrow-border-width) solid transparent;
+    border-left: var(--arrow-border-width) solid transparent;
+}
+
+.stage-name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.number {
+    font-size: 24px;
+    margin-left: 10px;
+    font-weight: 600;
+}

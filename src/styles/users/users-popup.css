@@ -1,0 +1,170 @@
+@import "../global/mixins.css";
+
+.content {
+    margin: 0;
+    padding: 40px 38px;
+}
+
+.inner {
+    overflow: initial;
+}
+
+.container {
+    display: flex;
+}
+
+.top-right {
+    position: absolute;
+    top: -35px;
+    left: 870px;
+}
+
+.close {
+    height: 20px;
+    width: 20px;
+    background: url(/assets/error.svg) center center no-repeat;
+    cursor: pointer;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.icon {
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    margin-right: 15px;
+    align-self: center;
+}
+
+.header-big-text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: auto;
+    align-self: center;
+}
+
+.header-small-text {
+    font-size: 14px;
+    font-weight: 500;
+    align-self: center;
+    margin-top: 5px;
+}
+
+.channels {
+    margin: 40px 50px;
+}
+
+.channels-header {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.channel-box {
+    width: 186px;
+    height: 50px;
+    background-color: #f2f2f2;
+    position: relative;
+    margin-right: 50px;
+    align-items: center;
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.channel-box:not(:last-child):before {
+    content: '';
+    position: absolute;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    left: 100%;
+    border-left: 25px solid #f2f2f2;
+}
+
+.channel-box:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.user-journey {
+    margin: 35px;
+    position: relative;
+}
+
+.line {
+    background-color: #1885d6;
+    position: absolute;
+    height: 100%;
+    width: 3px;
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border: solid 2px #1885d6;
+    border-radius: 50%;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 15px;
+    min-width: 60px;
+    min-height: 60px;
+}
+
+.icon-circle-small {
+    composes: icon-circle;
+    width: 30px;
+    height: 30px;
+    background-size: 15px 15px;
+    margin-right: 30px;
+    margin-left: 15px;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+.events {
+    padding: 5px 0;
+}
+
+.event-text {
+    font-size: 16px;
+}
+
+.event-time {
+    font-size: 12px;
+}
+
+.event-line {
+    margin-left: -30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 25px;
+}
+
+.device {
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-top: 5px;
+}
+
+.other-pages {
+    text-decoration: underline;
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+.other-pages-popup {
+    left: 5px;
+    padding: 10px;
+    font-size: 14px;
+    width: max-content;
+}
+
+@mixin icon-nodpi event:conversion, /assets/event;
+@mixin icon-nodpi event:page, /assets/eye;
+@mixin icon-nodpi event:status, /assets/flag;

@@ -1,0 +1,38 @@
+@import "../global/mixins.css";
+
+.inner {
+    margin: 38px 15px;
+}
+
+.toggle {
+    margin: 12px 15px 5px;
+}
+
+@mixin icon-nodpi device:Computer, /assets/desktop;
+@mixin icon-nodpi device:Tablet, /assets/tablet;
+@mixin icon-nodpi device:Mobile, /assets/phone;
+
+.icon {
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-right: 5px;
+    align-self: center;
+}
+
+.container {
+    display: flex;
+}
+
+.account {
+    font-size: 18px;
+    color: #354052;
+    font-weight: 600;
+}
+
+.email {
+    font-size: 12px;
+    color: #354052;
+}

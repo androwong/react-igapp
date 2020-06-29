@@ -1,0 +1,17 @@
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 8px;
+  height: 28px;
+  width: 50px;
+  background: url(/assets/calendar.svg) center center no-repeat;
+  background-size: 24px auto;
+  cursor: pointer;
+}
+
+.input {
+  flex-grow: 1;
+}

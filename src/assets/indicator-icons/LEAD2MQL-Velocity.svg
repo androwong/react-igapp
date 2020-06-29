@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>LEAD2MQL-Velocity</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="LEAD2MQL-Velocity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-LEAD2MQL" fill-rule="nonzero">
+            <circle id="Oval" fill="#579BFC" cx="50" cy="50" r="50"></circle>
+            <ellipse id="Oval" stroke="#252E4A" stroke-width="3" fill="#579BFC" stroke-linecap="round" stroke-linejoin="round" cx="50" cy="28.69" rx="29" ry="5.09"></ellipse>
+            <circle id="Oval" stroke="#252E4A" stroke-width="3" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" cx="37.83" cy="17.17" r="10.17"></circle>
+            <circle id="Oval" stroke="#252E4A" stroke-width="3" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" cx="59.92" cy="30.3" r="8.92"></circle>
+            <path d="M79,29.08 L56.27,51.81 L56.27,63.93 L43.73,69.06 L43.73,51.81 L21,29.08 C21,29.08 23.35,33.79 50,33.79 C76.65,33.79 79,29.08 79,29.08 Z" id="Shape" stroke="#252E4A" stroke-width="3" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval" stroke="#252E4A" stroke-width="3" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" cx="50" cy="75" r="18"></circle>
+            <rect id="Rectangle-path" stroke="#252E4A" stroke-width="3" fill="#3773C8" stroke-linecap="round" stroke-linejoin="round" x="37.94" y="71.66" width="1.63" height="2.93"></rect>
+            <path d="M40.89,68.4 L49,68.4 L49,77.85 L40.89,77.85 C40.1609841,77.85 39.57,77.2590159 39.57,76.53 L39.57,69.72 C39.57,68.9909841 40.1609841,68.4 40.89,68.4 Z" id="Shape" stroke="#252E4A" stroke-width="3" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Shape" stroke="#252E4A" stroke-width="3" fill="#579BFC" stroke-linecap="round" stroke-linejoin="round" points="49.02 68.4 59.13 64.17 59.13 82.42 49.02 77.85"></polygon>
+            <path d="M48,77.85 L46.38,80.79 L47.67,84.24 C47.8190665,84.6335401 47.7684131,85.0748936 47.5340649,85.4244299 C47.2997167,85.7739661 46.9106674,85.9884405 46.49,86 L43.9,86 C43.2932288,86.0033364 42.7635801,85.5895483 42.62,85 L41.2,77.9 L48,77.85 Z" id="Shape" stroke="#252E4A" stroke-width="3" fill="#579BFC" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M59.12,76.22 C60.7381943,76.22 62.05,74.9081943 62.05,73.29 C62.05,71.6718057 60.7381943,70.36 59.12,70.36 L59.12,76.22 Z" id="Shape" stroke="#252E4A" stroke-width="3" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+        <path d="M78,64 C71.9248678,64 67,59.0751322 67,53 C67,46.9248678 71.9248678,42 78,42 C84.0751322,42 89,46.9248678 89,53" id="Shape" stroke="#252E4A" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M89,53 C89,59.0751322 84.0751322,64 78,64" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        <path d="M89,53 C89,53.34 89,53.67 89,54" id="Shape" stroke="#252E4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M88,57.67 C86.6383331,60.618616 84.0432167,62.8147653 80.91,63.67" id="Shape" stroke="#252E4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1.91"></path>
+        <path d="M79,64 C78.67,64 78.34,64 78,64" id="Shape" stroke="#252E4A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+        <polyline id="Shape" stroke="#252E4A" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="78 47 78 53 80.5 55.5"></polyline>
+        <polyline id="Shape" stroke="#252E4A" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="91 52 89 54 87 52"></polyline>
+    </g>
+</svg>
