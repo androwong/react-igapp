@@ -72,7 +72,7 @@
     "xlsx": "^0.12.1"
   },
   "dependencies": {
-    "auth0-js": "9.8",
+    "auth0-js": "9.13",
     "moment": "^2.23.0",
     "prop-types": "^15.6.2",
     "randomstring": "^1.1.5",
